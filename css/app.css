@@ -13,13 +13,13 @@ body {
 	color: #3c3c3c;
 
 	background-color: #f5f5f5;
-	background-image: url("https://renatorroliveira.github.io/developer-kingdom/img/char.png");
+	/* background-image: url("https://renatorroliveira.github.io/developer-kingdom/img/char.png");
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	background-attachment: fixed;
+	background-attachment: fixed; */
 
-	/* Black magic to not let the footer collapse with other elements (Don't ask me why) */
- 	margin-bottom: 150px;
+	/* Black magic to not let the footer collapse with other elements (Don't ask me why) 
+ 	margin-bottom: 150px;*/
 }
 
 h1 {
@@ -31,50 +31,15 @@ a {
 }
 
 /*
- * Media Query
- */
- 
-@media only screen and (max-width: 850px) {
-    body {
-        background-image: none;
-    }
-}
-
-/*
- * Footer
- */
-
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 100px;
-}
-
-footer p {
-	font-size: 0.8em;
-	font-weight: bold;
-}
-
-footer a {
-	padding: 0px 8px;
-}
-
-/*
  * Custom overrides
  */
  
-.jumbotron {
-	background: none;
-}
 
-.jumbotron p {
-	font-weight: normal;
-}
 
 /*
  * Custom Classes
  */
+
 .custom-label {
 	background-color: #fff;
 }
@@ -85,6 +50,56 @@ footer a {
 
 .custom-form, .custom-form input, .custom-form button {
 	height: 40px;
+}
+
+.push {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.details {
+	width: 100%;
+	background-color: #fcfcfc;
+}
+
+.card {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.card p {
+	font-size: 0.8em;
+	font-weight: normal;
+	color: #888;
+}
+
+.card img {
+	padding-top: 10px;
+}
+
+.navbar {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+/*
+ * Custom Classes > Footer
+ */
+
+.footer p {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.footer a {
+	padding: 0px 8px;
+	color: #3c3c3c;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+
+.footer a:hover {
+	color: #3c3c3c;
 }
 
 /* 
@@ -100,17 +115,6 @@ footer a {
  * Misc
  */
 
-.col-centered {
-	float: none;
-	margin: 0 auto;
-}
-
-.brand {
-    position: relative;
-    top: 0;
-    height: 150px;
-}
-
 /*
  * Colors
  */
@@ -118,3 +122,7 @@ footer a {
 .light-gray {
 	color: #aaa;
 }
+
+/*
+ * #IDs
+ */
