@@ -57,10 +57,18 @@ a {
 	padding-bottom: 60px;
 }
 
+/*
+ * Custom Classes > Details
+ */
+
 .details {
 	width: 100%;
 	background-color: #fcfcfc;
 }
+
+/*
+ * Custom Classes > Card
+ */
 
 .card {
 	padding-top: 20px;
@@ -76,6 +84,10 @@ a {
 .card img {
 	padding-top: 10px;
 }
+
+/*
+ * Custom Classes > Navbar
+ */
 
 .navbar {
 	padding-top: 40px;
